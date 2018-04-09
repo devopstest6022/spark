@@ -42,7 +42,11 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class spark {
+class spark (
+  $spark_version  = $::spark::params::spark_version,
+  $spark_downlaod = $::spark::params::spark_download,
+) inherits ::spark::params {
 
+ class { '::spark::install': }
 
 }
