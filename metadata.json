@@ -1,0 +1,15 @@
+{
+  "name": "devopstest6022-spark",
+  "version": "0.1.0",
+  "author": "devopstest6022",
+  "summary": "This module install Apache Spark",
+  "license": "Apache-2.0",
+  "source": "https://github.com/devopstest6022/spark.git",
+  "project_page": "https://github.com/devopstest6022/spark",
+  "issues_url": "https://github.com/devopstest6022/spark/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
